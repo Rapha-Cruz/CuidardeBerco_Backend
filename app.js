@@ -49,4 +49,4 @@ app.get('/test-db', async (req, res) => {
 //     console.log(`Servidor rodando na porta http://localhost:${PORT}`)
 // })
 
-export default app
+module.exports = app
