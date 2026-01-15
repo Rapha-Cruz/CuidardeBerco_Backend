@@ -43,8 +43,10 @@ app.get('/test-db', async (req, res) => {
     }
 })
 
-// Porta
-const PORT = process.env.PORT || 3333
-app.listen(PORT, () => {
-    console.log(`Servidor rodando na porta http://localhost:${PORT}`)
-})
+// // Porta
+// const PORT = process.env.PORT || 3333
+// app.listen(PORT, () => {
+//     console.log(`Servidor rodando na porta http://localhost:${PORT}`)
+// })
+
+export default app
